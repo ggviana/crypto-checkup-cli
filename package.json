@@ -1,0 +1,28 @@
+{
+  "name": "crypto-checkup-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm crypto-checkup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggviana/crypto-checkup-cli.git"
+  },
+  "keywords": [],
+  "author": "Guilherme Guimarães Viana <ggviana@tuta.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggviana/crypto-checkup-cli/issues"
+  },
+  "homepage": "https://github.com/ggviana/crypto-checkup-cli#readme",
+  "dependencies": {
+    "axios": "0.18.0",
+    "bignumber.js": "7.2.1",
+    "chalk": "2.4.1",
+    "cli-table": "0.3.1",
+    "commander": "2.16.0",
+    "esm": "3.0.72"
+  }
+}
