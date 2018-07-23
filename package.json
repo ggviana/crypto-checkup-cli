@@ -1,6 +1,6 @@
 {
   "name": "crypto-checkup-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "crypto-checkup.js",
   "bin": {
