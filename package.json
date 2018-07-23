@@ -7,7 +7,7 @@
     "crypto-checkup": "crypto-checkup.js"
   },
   "scripts": {
-    "start": "node -r esm crypto-checkup.js"
+    "start": "node crypto-checkup.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,6 @@
     "bignumber.js": "7.2.1",
     "chalk": "2.4.1",
     "cli-table": "0.3.1",
-    "commander": "2.16.0",
-    "esm": "3.0.72"
+    "commander": "2.16.0"
   }
 }

@@ -1,11 +1,10 @@
-#!/bin/sh
-':' //; exec "$(command -v nodejs || command -v node)" -r esm "$0" "$@"
+#!/usr/bin/env node
 
-import axios from 'axios'
-import program from 'commander'
-import Table from 'cli-table'
-import BigNumber from 'bignumber.js'
-import chalk from 'chalk'
+const axios = require('axios')
+const program = require('commander')
+const Table = require('cli-table')
+const BigNumber = require('bignumber.js')
+const chalk = require('chalk')
 
 const toData = _ => _.data || _
 
