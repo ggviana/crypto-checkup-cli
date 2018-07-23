@@ -1,10 +1,10 @@
 {
   "name": "crypto-checkup-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "crypto-checkup.js",
   "bin": {
-    "crypto-checkup": "node -r esm crypto-checkup.js"
+    "crypto-checkup": "crypto-checkup.js"
   },
   "scripts": {
     "start": "node -r esm crypto-checkup.js"
