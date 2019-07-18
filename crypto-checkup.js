@@ -23,7 +23,7 @@ const formatCurrency = value => new Intl
   .replace('$', '')
 
 const toPercent = value => `${value}%`
-const formatChange = value => (value > 0 ? chalk.green : chalk.red)(toPercent(value))
+const formatChange = value => (value > 0 ? chalk.green : chalk.red)(toPercent(new BigNumber(value).toFixed(2)))
 const formatPrice = (value, change) => (change > 0 ? chalk.green : chalk.red)(formatCurrency(value))
 
 axios.get(`https://api.coinmarketcap.com/v2/ticker/?limit=${program.limit}&convert=${program.fiat}`)
