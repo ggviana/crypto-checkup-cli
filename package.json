@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/ggviana/crypto-checkup-cli#readme",
   "dependencies": {
-    "axios": "0.21.1",
+    "axios": "0.21.2",
     "bignumber.js": "7.2.1",
     "chalk": "2.4.1",
     "cli-table": "0.3.1",
